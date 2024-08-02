@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Deluxe - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Resort - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -31,7 +31,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Deluxe</a>
+	      <a class="navbar-brand" href="index.html">Resort</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -39,11 +39,11 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="rooms.html" class="nav-link">Rooms</a></li>
+	       
 	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Restaurant</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	      
+	          <li class="nav-item"><a href="#contacts">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -57,7 +57,7 @@
           <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-5 ftco-animate text-center">
           	<div class="text mb-5 pb-3">
-	            <h1 class="mb-3">Welcome To Deluxe</h1>
+	            <h1 class="mb-3">Welcome To Resort</h1>
 	            <h2>Hotels &amp; Resorts</h2>
             </div>
           </div>
@@ -80,94 +80,139 @@
       </div>
     </section>
 
-    <section class="ftco-booking">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-lg-12">
-    				<form action="#" class="booking-form">
-	        		<div class="row">
-	        			<div class="col-md-3 d-flex">
-	        				<div class="form-group p-4 align-self-stretch d-flex align-items-end">
-	        					<div class="wrap">
-				    					<label for="#">enter Check-in Date</label>
-				    					<input type="text" class="form-control checkin_date" placeholder="-----------">
-			    					</div>
-			    				</div>
-	        			</div>
-	        			<div class="col-md-3 d-flex">
-	        				<div class="form-group p-4 align-self-stretch d-flex align-items-end">
-	        					<div class="wrap">
-				    					<label for="#">Check-out Date</label>
-				    					<input type="text" class="form-control checkout_date" placeholder="-----------">
-			    				</div>
-			    				</div>
-	        			</div>
-	        			<div class="col-md d-flex">
-	        				<div class="form-group p-4 align-self-stretch d-flex align-items-end">
-	        					<div class="wrap">
-			      					<label for="#">Room</label>
-			      					<div class="form-field">
-			        					<div class="select-wrap">
-			                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-			                    <select name="" id="" class="form-control">
-			                    	<option value="">Suite</option>
-			                      <option value="">Family Room</option>
-			                      <option value="">Deluxe Room</option>
-			                      <option value="">Classic Room</option>
-			                      <option value="">Superior Room</option>
-			                      <option value="">Luxury Room</option>
-			                    </select>
-			                  </div>
-				              </div>
-				            </div>
-		              </div>
-	        			</div>
-	        			<div class="col-md d-flex">
-	        				<div class="form-group p-4 align-self-stretch d-flex align-items-end">
-	        					<div class="wrap">
-			      					<label for="#">Customer</label>
-			      					<div class="form-field">
-			        					<div class="select-wrap">
-			                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-			                    <select name="" id="" class="form-control">
-			                    	<option value="">1 Adult</option>
-			                      <option value="">2 Adult</option>
-			                      <option value="">3 Adult</option>
-			                      <option value="">4 Adult</option>
-			                      <option value="">5 Adult</option>
-			                      <option value="">6 Adult</option>
-			                    </select>
-			                  </div>
-				              </div>
-				            </div>
-		              </div>
-	        			</div>
-	        			<div class="col-md d-flex">
-	        				<div class="form-group d-flex align-self-stretch">
-			              <input type="submit" value="Check Availability" class="btn btn-primary py-3 px-4 align-self-stretch">
-			            </div>
-	        			</div>
-	        		</div>
-	        	</form>
-	    		</div>
-    		</div>
-    	</div>
-    </section>
+    <!--form begins -->
+
+
+	
+	<style>
+		body {
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		  background-color: #f4f4f4;
+		}
+	  
+		.container44 {
+		  width: 90%; /* Adjust width to 90% of viewport */
+		  max-width: 500px; /* Limit maximum width for larger screens */
+		  margin: 10px auto;
+		  background-color:#e3dbdb;
+		  padding: 30px;
+		  border-radius: 5px;
+		  box-shadow: 0 5px 10px rgba(51, 223, 8, 0.1);
+		}
+	  
+		h2 {
+		  text-align: center;
+		  color: #333;
+		  margin-bottom: 10px;
+		}
+	  
+		label {
+		  display: block;
+		  margin-bottom: 2px;
+		  color: #555;
+		}
+	  
+		input[type="text"], 
+		input[type="date"], 
+		input[type="number"], 
+		select {
+		  width: 100%;
+		  padding: 8px;
+		  border: 1px solid #ccc;
+		  border-radius: 7px;
+		  box-sizing: border-box;
+		  margin-bottom: 5px;
+		}
+	  
+		input[type="submit"] {
+		  background-color: #007bff;
+		  color: white;
+		  padding: 6px 10px;
+		  border: none;
+		  border-radius: 3px;
+		  cursor: pointer;
+		  width: 100%;
+		}
+	  
+		input[type="submit"]:hover {
+		  background-color: #0062cc;
+		}
+	  
+		/* Responsive Styling */
+		@media (max-width: 500px) {
+		  .container {
+			padding: 20px; /* Reduce padding for smaller screens */
+		  }
+		}
+	  </style>
+  
+	  
+	  
+	  <div class="container44">
+		<h2>Resort Booking Inquiry</h2>
+		<form id="bookingForm">
+		  <label for="name">Name:</label><br>
+		  <input type="text" id="name" name="name" required><br><br>
+	  
+		  <label for="dateEntry">Date Entry:</label><br>
+		  <input type="date" id="dateEntry" name="dateEntry" required><br><br>
+	  
+		  <label for="dateExit">Date Exit:</label><br>
+		  <input type="date" id="dateExit" name="dateExit" required><br><br>
+	  
+		  <label for="adults">Number of Adults:</label><br>
+		  <input type="number" id="adults" name="adults" required><br><br>
+	  
+		  <label for="roomType">Room Type:</label><br>
+		  <select id="roomType" name="roomType">
+			<option value="single">Single</option>
+			<option value="double">Double</option>
+			<option value="suite">Suite</option>
+		  </select><br><br>
+	  
+		  <input type="submit" value="Submit">
+		</form>
+	  </div>
+	  
+	  <script>
+		const form = document.getElementById('bookingForm');
+	  
+		form.addEventListener('submit', (event) => {
+		  event.preventDefault(); // Prevent default form submission
+	  
+		  const name = document.getElementById('name').value;
+		  const dateEntry = document.getElementById('dateEntry').value;
+		  const dateExit = document.getElementById('dateExit').value;
+		  const adults = document.getElementById('adults').value;
+		  const roomType = document.getElementById('roomType').value;
+	  
+		  // Construct WhatsApp message link with pre-filled text
+		  const message = `Name: ${name}\nEntry Date: ${dateEntry}\nExit Date: ${dateExit}\nAdults: ${adults}\nRoom Type: ${roomType}`;
+		  const whatsappUrl = `https://wa.me/+918086700517?text=${encodeURIComponent(message)}`;
+	  
+		  // Redirect to the WhatsApp message link
+		  window.location.href = whatsappUrl;
+		});
+	  </script>
+	  
+  
+  
+  
+  
+	  <!--form enfs-->
 
 
     <section class="ftco-section ftc-no-pb ftc-no-pt">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bg_2.jpg);">
-						<a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-							<span class="icon-play"></span>
-						</a>
-					</div>
+					
 					<div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
 	          <div class="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">
 	          	<div class="ml-md-0">
-		          	<span class="subheading">Welcome to Deluxe Hotel</span>
-		            <h2 class="mb-4">Welcome To Our Hotel</h2>
+		       
+		            <h2 class="mb-4">Welcome To Our Resort</h2>
 	            </div>
 	          </div>
 	          <div class="pb-md-5">
@@ -261,7 +306,7 @@
     					</a>
     					<div class="text p-3 text-center">
     						<h3 class="mb-3"><a href="rooms.html">Suite Room</a></h3>
-    						<p><span class="price mr-2">$120.00</span> <span class="per">per night</span></p>
+    						<p><span class="price mr-2">rs120.00</span> <span class="per">per night</span></p>
     						<hr>
     						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
@@ -276,7 +321,7 @@
     					</a>
     					<div class="text p-3 text-center">
     						<h3 class="mb-3"><a href="rooms.html">Family Room</a></h3>
-    						<p><span class="price mr-2">$20.00</span> <span class="per">per night</span></p>
+    						<p><span class="price mr-2">rs20.00</span> <span class="per">per night</span></p>
     						<hr>
     						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
@@ -290,8 +335,8 @@
     						</div>
     					</a>
     					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Deluxe Room</a></h3>
-    						<p><span class="price mr-2">$150.00</span> <span class="per">per night</span></p>
+    						<h3 class="mb-3"><a href="rooms.html">Resort Room</a></h3>
+    						<p><span class="price mr-2">rs150.00</span> <span class="per">per night</span></p>
     						<hr>
     						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
@@ -306,7 +351,7 @@
     					</a>
     					<div class="text p-3 text-center">
     						<h3 class="mb-3"><a href="rooms.html">Classic Room</a></h3>
-    						<p><span class="price mr-2">$130.00</span> <span class="per">per night</span></p>
+    						<p><span class="price mr-2">rs130.00</span> <span class="per">per night</span></p>
     						<hr>
     						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
@@ -321,7 +366,7 @@
     					</a>
     					<div class="text p-3 text-center">
     						<h3 class="mb-3"><a href="rooms.html">Superior Room</a></h3>
-    						<p><span class="price mr-2">$300.00</span> <span class="per">per night</span></p>
+    						<p><span class="price mr-2">rs300.00</span> <span class="per">per night</span></p>
     						<hr>
     						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
@@ -336,7 +381,7 @@
     					</a>
     					<div class="text p-3 text-center">
     						<h3 class="mb-3"><a href="rooms.html">Luxury Room</a></h3>
-    						<p><span class="price mr-2">$500.00</span> <span class="per">per night</span></p>
+    						<p><span class="price mr-2">rs500.00</span> <span class="per">per night</span></p>
     						<hr>
     						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
     					</div>
@@ -346,49 +391,190 @@
     	</div>
     </section>
 
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
-    	<div class="container">
-    		<div class="row justify-content-center">
-    			<div class="col-md-10">
-		    		<div class="row">
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="50000">0</strong>
-		                <span>Happy Guests</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="3000">0</strong>
-		                <span>Rooms</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="1000">0</strong>
-		                <span>Staffs</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="100">0</strong>
-		                <span>Destination</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
-        </div>
-    	</div>
-    </section>
+<!--vvvvvv-->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Counter with Animation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .counter-box {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 40px);
+            max-width: calc(33.333% - 40px);
+            box-sizing: border-box;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.5s ease-out;
+        }
+
+        .counter-box.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .counter-box .icon {
+            margin-bottom: 10px;
+        }
+
+        .counter-box .icon img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .counter-box h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+
+        .counter-box h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .counter-box {
+                flex: 1 1 calc(50% - 40px);
+                max-width: calc(50% - 40px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .counter-box {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="counter-box" id="box1">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/16147/16147062.png" alt="Icon">
+            </div>
+            <h2>Counter 1</h2>
+            <h1 id="counter1">0+</h1>
+        </div>
+        <div class="counter-box" id="box2">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/16147/16147062.png" alt="Icon">
+            </div>
+            <h2>Counter 2</h2>
+            <h1 id="counter2">0+</h1>
+        </div>
+        <div class="counter-box" id="box3">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/16147/16147062.png" alt="Icon">
+            </div>
+            <h2>Counter 3</h2>
+            <h1 id="counter3">0+</h1>
+        </div>
+        <div class="counter-box" id="box4">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/16147/16147062.png" alt="Icon">
+            </div>
+            <h2>Counter 4</h2>
+            <h1 id="counter4">0+</h1>
+        </div>
+        <div class="counter-box" id="box5">
+            <div class="icon">
+                <img src="https://cdn-icons-png.flaticon.com/128/16147/16147062.png" alt="Icon">
+            </div>
+            <h2>Counter 5</h2>
+            <h1 id="counter5">0+</h1>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const counters = [
+                { element: document.getElementById("counter1"), target: 1000 },
+                { element: document.getElementById("counter2"), target: 300 },
+                { element: document.getElementById("counter3"), target: 45 },
+                { element: document.getElementById("counter4"), target: 10 },
+                { element: document.getElementById("counter5"), target: 23 }
+            ];
+            const boxes = [
+                document.getElementById("box1"),
+                document.getElementById("box2"),
+                document.getElementById("box3"),
+                document.getElementById("box4"),
+                document.getElementById("box5")
+            ];
+
+            let counting = [false, false, false, false, false];
+
+            function startCounting(counterElement, target, index) {
+                let count = 0;
+                counting[index] = true;
+                const interval = setInterval(function() {
+                    if (count < target) {
+                        count++;
+                        counterElement.textContent = count + "+";
+                    } else {
+                        clearInterval(interval);
+                    }
+                }, 700 / target); // Adjust the interval time based on target value
+            }
+
+            function isElementInViewport(el) {
+                const rect = el.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            }
+
+            function onScroll() {
+                counters.forEach((counter, index) => {
+                    if (!counting[index] && isElementInViewport(counter.element)) {
+                        boxes[index].classList.add('visible');
+                        startCounting(counter.element, counter.target, index);
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', onScroll);
+            onScroll(); // Initial check in case the elements are already in view
+        });
+    </script>
+</body>
+</html>
+
+
+
+<!--vvvvvv-->
+
+
+
+
+
+
+
+  
 
     <section class="ftco-section testimony-section bg-light">
       <div class="container">
@@ -476,74 +662,7 @@
     </section>
 
 
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2>Recent Blog</h2>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text mt-3 d-block">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text mt-3">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text mt-3">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg');">
-              </a>
-              <div class="text mt-3">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+   
     <section class="instagram">
       <div class="container-fluid">
         <div class="row no-gutters justify-content-center pb-5">
@@ -591,49 +710,17 @@
       </div>
     </section>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <footer class="ftco-footer ftco-bg-dark ftco-section" id="contacts">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Deluxe Hotel</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Useful Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Rooms</a></li>
-                <li><a href="#" class="py-2 d-block">Amenities</a></li>
-                <li><a href="#" class="py-2 d-block">Gift Card</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Privacy</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Career</a></li>
-                <li><a href="#" class="py-2 d-block">About Us</a></li>
-                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+       
+		 <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.181771657884!2d75.07860701481714!3d12.504107891163835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4846bda0b9525%3A0x1a6965b115fbfb96!2sLBS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1638908084157!5m2!1sen!2sin" class="map" allowfullscreen="" loading="lazy"></iframe></center>  
+         &nbsp;
+        
+            	
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	               
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91123456789</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
 	            </div>
@@ -643,14 +730,25 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Thanks <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.instagram.com/website_for_free?igsh=YjNndWM5bmN2a2w0" target="_blank">NullWeb</a>
+  </p>
           </div>
         </div>
       </div>
+	  <div class="col-md">
+		<div class="ftco-footer-widget mb-4">
+		  <ul class="ftco-footer-social list-unstyled ">
+			<li ><a href="#"><span class="icon-twitter"></span></a></li>
+			<li><a href="#"><span class="icon-facebook"></span></a></li>
+			<li><a href="#"><span class="icon-instagram"></span></a></li>
+		  </ul>
+		</div>
+	  </div>
+	
     </footer>
-    
+
+		
   
 
   <!-- loader -->

@@ -8131,7 +8131,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 20px;
   background: #232323; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8139,7 +8139,7 @@ textarea.form-control {
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 4px;
     font-size: 18px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a span {
@@ -8427,15 +8427,15 @@ textarea.form-control {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-    color: #b3b3b3;
+    color: blue;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     border-radius: 30px; }
     .ftco-section .nav-pills .nav-link:hover {
-      color: #000000; }
+      color: black; }
     .ftco-section .nav-pills .nav-link.active {
-      color: #fff;
+      color: blue;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;

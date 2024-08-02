@@ -308,6 +308,15 @@
 	OnePageNav();
 
 
+/* Counter
+    ========================================================*/
+    $('.counterUp').counterUp({
+		delay: 20,
+		time: 3000
+	   });
+
+
+
 	// magnific popup
 	$('.image-popup').magnificPopup({
     type: 'image',
