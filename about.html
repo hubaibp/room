@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
@@ -136,48 +136,135 @@
        
     </section>
 
-    <section class="instagram pt-5">
-      <div class="container-fluid">
-        <div class="row no-gutters justify-content-center pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2><span>Instagram</span></h2>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-sm-12 col-md ftco-animate">
-            <a href="images/insta-1.jpg" class="insta-img image-popup" style="background-image: url(images/insta-1.jpg);">
-              <div class="icon d-flex justify-content-center">
-                <span class="icon-instagram align-self-center"></span>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-sm-12 col-md ftco-animate">
-            <a href="images/insta-3.jpg" class="insta-img image-popup" style="background-image: url(images/insta-3.jpg);">
-              <div class="icon d-flex justify-content-center">
-                <span class="icon-instagram align-self-center"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-12 col-md ftco-animate">
-            <a href="images/insta-4.jpg" class="insta-img image-popup" style="background-image: url(images/insta-4.jpg);">
-              <div class="icon d-flex justify-content-center">
-                <span class="icon-instagram align-self-center"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-12 col-md ftco-animate">
-            <a href="images/insta-5.jpg" class="insta-img image-popup" style="background-image: url(images/insta-5.jpg);">
-              <div class="icon d-flex justify-content-center">
-                <span class="icon-instagram align-self-center"></span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+  
+      .content {
+        flex: 1;
+      }
+  
+      .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+      }
+  
+      .footer .contact-info {
+        margin: 20px 0;
+      }
+  
+      .footer .contact-info p {
+        margin: 5px 0;
+      }
+  
+      .footer .contact-info a {
+        color: white;
+        text-decoration: none;
+      }
+  
+      .footer .contact-info a:hover {
+        text-decoration: underline;
+      }
+  
+      .footer .social-icons {
+        margin: 20px 0;
+      }
+  
+      .footer .social-icons a {
+        color: white;
+        margin: 0 10px;
+        font-size: 24px;
+        text-decoration: none;
+      }
+  
+      .footer .social-icons a:hover {
+        color: #ddd;
+      }
+  
+      .scroll-to-top {
+        position: fixed;
+        right: 10px;
+        bottom: 1px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 20%;
+       
+      }
+  
+      .scroll-to-top:hover {
+        background-color: #45a049;
+      }
+  
+      .phone-icon {
+        position: fixed;
+        bottom: 1px;
+        left: 10px;
+        background-color: #007BFF;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 20%;
+        z-index: 1000;
+      }
+  
+      .phone-icon:hover {
+        background-color: #0056b3;
+      }
+    </style>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section" id="contacts">
+    <div class="content">
+      <!-- Main content goes here -->
+    </div>
+    <footer class="footer">
+      <div class="contact-info">
+        <p>Phone: <a href="tel:+8086700517">8086700517</a></p>
+        <p>Email: <a href="mailto:resort12@gmail.com">resort12@gmail.com</a></p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="scroll-to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+      </div>
+      <p>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Thanks <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://www.instagram.com/website_for_free?igsh=YjNndWM5bmN2a2w0" target="_blank">NullWeb</a>
+      </p>
+      <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.181771657884!2d75.07860701481714!3d12.504107891163835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4846bda0b9525%3A0x1a6965b115fbfb96!2sLBS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1638908084157!5m2!1sen!2sin" class="map" allowfullscreen="" loading="lazy"></iframe></center>  
+      &nbsp;
+    </footer>
+    <div class="phone-icon" onclick="callPhone()">
+      <i class="fas fa-phone"></i>
+    </div>
+    
+    <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+  
+      function callPhone() {
+        window.location.href = 'tel:+8086700517';
+      }
+    </script>
+
+
+
+
+    <!--<footer class="ftco-footer ftco-bg-dark ftco-section" id="contacts">
       <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
          
@@ -216,8 +303,10 @@
       </footer>
       
     
-    </footer>
-    
+    </footer>-->
+   
+
+
   
 
   <!-- loader -->
